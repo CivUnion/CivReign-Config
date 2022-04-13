@@ -1,0 +1,2 @@
+# CivReign-Config
+CivReign Configuration
