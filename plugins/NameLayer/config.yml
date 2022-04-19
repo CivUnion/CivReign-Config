@@ -1,0 +1,16 @@
+groups:
+  creationOnFirstJoin: true
+  enable: true
+  grouplimit: 15
+persistance:
+  forceloadnamecaching: false
+sql:
+  dbname: %DB.DATABASE%
+  hostname: %DB.HOST%
+  password: %DB.PASS%
+  port: %DB.PORT%
+  username: %DB.USER%
+  poolsize: 10
+  connection_timeout: 10000
+  idle_timeout: 600000
+  max_lifetime: 7200000

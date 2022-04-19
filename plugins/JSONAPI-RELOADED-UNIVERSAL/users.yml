@@ -1,0 +1,6 @@
+users:
+- username: %JSON.USER%
+  password: %JSON.PASS%
+  logging: true
+  groups:
+  - full_control

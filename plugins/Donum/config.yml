@@ -1,0 +1,15 @@
+#Url that can be opened in the delivery gui
+complaintURL: https://www.reddit.com/message/compose?to=%2Fr%2Fcivunion
+
+#Whether BetterShards player data API should be used for delivery inventories
+useBetterShards: true
+
+
+
+#database credentials
+database:
+  host: %DB.HOST%
+  database: %DB.DATABASE%
+  port: %DB.PORT%
+  password: %DB.PASS%
+  user: %DB.USER%
