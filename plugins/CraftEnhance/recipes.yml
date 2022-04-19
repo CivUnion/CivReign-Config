@@ -1,0 +1,988 @@
+recipe1:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: NETHER_WART_9
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - NETHER_WART_BLOCK_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe2:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: RED_MUSHROOM_4
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - RED_MUSHROOM_BLOCK_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe3:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: RED_MUSHROOM_BLOCK_1
+  hidden: false
+  recipe:
+  - RED_MUSHROOM_1
+  - RED_MUSHROOM_1
+  - null
+  - RED_MUSHROOM_1
+  - RED_MUSHROOM_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe4:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: BROWN_MUSHROOM_4
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - BROWN_MUSHROOM_BLOCK_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe5:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: BROWN_MUSHROOM_BLOCK_1
+  hidden: false
+  recipe:
+  - BROWN_MUSHROOM_1
+  - BROWN_MUSHROOM_1
+  - null
+  - BROWN_MUSHROOM_1
+  - BROWN_MUSHROOM_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe6:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: GRANITE_1
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - POLISHED_GRANITE_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe7:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIORITE_1
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - POLISHED_DIORITE_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe8:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: ANDESITE_1
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - POLISHED_ANDESITE_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe9:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: BASALT_1
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - POLISHED_BASALT_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe10:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: BRICK_4
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - BRICKS_BLOCK_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe11:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: CLAY_BALL_4
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - CLAY_BLOCK_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe12:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: GLOWSTONE_DUST_4
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - GLOWSTONE_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe13:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: NETHER_BRICK_4
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - NETHER_BRICKS_BLOCK_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe14:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: PRISMARINE_SHARD_4
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - PRISMARINE_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe15:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: POPPED_CHORUS_FRUIT_1
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - PURPUR_BLOCK_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe17:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: SNOWBALL_4
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - SNOW_BLOCK_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe18:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: OAK_PLANKS_1
+  hidden: false
+  recipe:
+  - STICK_1
+  - STICK_1
+  - null
+  - STICK_1
+  - STICK_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe19:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: EXPERIENCE_BOTTLE_9
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - EMERALD_1
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true
+recipe20:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: EMERALD_1
+  hidden: false
+  recipe:
+  - EXPERIENCE_BOTTLE_1
+  - EXPERIENCE_BOTTLE_1
+  - EXPERIENCE_BOTTLE_1
+  - EXPERIENCE_BOTTLE_1
+  - EXPERIENCE_BOTTLE_1
+  - EXPERIENCE_BOTTLE_1
+  - EXPERIENCE_BOTTLE_1
+  - EXPERIENCE_BOTTLE_1
+  - EXPERIENCE_BOTTLE_1
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe21:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: Sapphire Gem
+  hidden: false
+  recipe:
+  - Sapphire Nugget
+  - Sapphire Nugget
+  - Sapphire Nugget
+  - Sapphire Nugget
+  - Sapphire Nugget
+  - Sapphire Nugget
+  - Sapphire Nugget
+  - Sapphire Nugget
+  - Sapphire Nugget
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe22:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: COAL
+  hidden: false
+  recipe:
+  - Coal Nugget
+  - Coal Nugget
+  - Coal Nugget
+  - Coal Nugget
+  - Coal Nugget
+  - Coal Nugget
+  - Coal Nugget
+  - Coal Nugget
+  - Coal Nugget
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe23:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND
+  hidden: false
+  recipe:
+  - Diamond Nugget
+  - Diamond Nugget
+  - Diamond Nugget
+  - Diamond Nugget
+  - Diamond Nugget
+  - Diamond Nugget
+  - Diamond Nugget
+  - Diamond Nugget
+  - Diamond Nugget
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe24:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: Astral Gem
+  hidden: false
+  recipe:
+  - Astral Nugget
+  - Astral Nugget
+  - Astral Nugget
+  - Astral Nugget
+  - Astral Nugget
+  - Astral Nugget
+  - Astral Nugget
+  - Astral Nugget
+  - Astral Nugget
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe25:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: Magma Core
+  hidden: false
+  recipe:
+  - Magma Nugget
+  - Magma Nugget
+  - Magma Nugget
+  - Magma Nugget
+  - Magma Nugget
+  - Magma Nugget
+  - Magma Nugget
+  - Magma Nugget
+  - Magma Nugget
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe26:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: Infernum Rod
+  hidden: false
+  recipe:
+  - Infernum Nugget
+  - Infernum Nugget
+  - Infernum Nugget
+  - Infernum Nugget
+  - Infernum Nugget
+  - Infernum Nugget
+  - Infernum Nugget
+  - Infernum Nugget
+  - Infernum Nugget
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe27:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_PICKAXE
+  hidden: false
+  recipe:
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - null
+  - STICK_1
+  - null
+  - null
+  - STICK_1
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe28:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_AXE
+  hidden: false
+  recipe:
+  - null
+  - DIAMOND
+  - DIAMOND
+  - null
+  - STICK_1
+  - DIAMOND
+  - null
+  - STICK_1
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe29:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_AXE
+  hidden: false
+  recipe:
+  - DIAMOND
+  - DIAMOND
+  - null
+  - DIAMOND
+  - STICK_1
+  - null
+  - null
+  - STICK_1
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe30:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_AXE
+  hidden: false
+  recipe:
+  - null
+  - DIAMOND
+  - DIAMOND
+  - null
+  - DIAMOND
+  - STICK_1
+  - null
+  - null
+  - STICK_1
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe31:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_AXE
+  hidden: false
+  recipe:
+  - DIAMOND
+  - DIAMOND
+  - null
+  - STICK_1
+  - DIAMOND
+  - null
+  - STICK_1
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe32:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_SHOVEL
+  hidden: false
+  recipe:
+  - null
+  - null
+  - DIAMOND
+  - null
+  - null
+  - STICK_1
+  - null
+  - null
+  - STICK_1
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe33:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_SHOVEL
+  hidden: false
+  recipe:
+  - null
+  - DIAMOND
+  - null
+  - null
+  - STICK_1
+  - null
+  - null
+  - STICK_1
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe34:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_SHOVEL
+  hidden: false
+  recipe:
+  - DIAMOND
+  - null
+  - null
+  - STICK_1
+  - null
+  - null
+  - STICK_1
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe35:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_HOE
+  hidden: false
+  recipe:
+  - null
+  - DIAMOND
+  - DIAMOND
+  - null
+  - null
+  - STICK_1
+  - null
+  - null
+  - STICK_1
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe36:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_HOE
+  hidden: false
+  recipe:
+  - null
+  - DIAMOND
+  - DIAMOND
+  - null
+  - STICK_1
+  - null
+  - null
+  - STICK_1
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe37:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_HOE
+  hidden: false
+  recipe:
+  - DIAMOND
+  - DIAMOND
+  - null
+  - null
+  - STICK_1
+  - null
+  - null
+  - STICK_1
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe38:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_HOE
+  hidden: false
+  recipe:
+  - DIAMOND
+  - DIAMOND
+  - null
+  - STICK_1
+  - null
+  - null
+  - STICK_1
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe39:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_SWORD
+  hidden: false
+  recipe:
+  - null
+  - DIAMOND
+  - null
+  - null
+  - DIAMOND
+  - null
+  - null
+  - STICK_1
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe40:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_SWORD
+  hidden: false
+  recipe:
+  - null
+  - null
+  - DIAMOND
+  - null
+  - null
+  - DIAMOND
+  - null
+  - null
+  - STICK_1
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe41:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_SWORD
+  hidden: false
+  recipe:
+  - DIAMOND
+  - null
+  - null
+  - DIAMOND
+  - null
+  - null
+  - STICK_1
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe42:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_CHESTPLATE
+  hidden: false
+  recipe:
+  - DIAMOND
+  - null
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe43:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_LEGGINGS
+  hidden: false
+  recipe:
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - null
+  - DIAMOND
+  - DIAMOND
+  - null
+  - DIAMOND
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe44:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_BOOTS
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - DIAMOND
+  - null
+  - DIAMOND
+  - DIAMOND
+  - null
+  - DIAMOND
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe45:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_BOOTS
+  hidden: false
+  recipe:
+  - DIAMOND
+  - null
+  - DIAMOND
+  - DIAMOND
+  - null
+  - DIAMOND
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe46:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_HELMET
+  hidden: false
+  recipe:
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - null
+  - DIAMOND
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: false
+recipe47:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: DIAMOND_HELMET
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - DIAMOND
+  - null
+  - DIAMOND
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe16:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: Adamantine Ingot
+  hidden: false
+  recipe:
+  - Adamantine Nugget
+  - Adamantine Nugget
+  - Adamantine Nugget
+  - Adamantine Nugget
+  - Adamantine Nugget
+  - Adamantine Nugget
+  - Adamantine Nugget
+  - Adamantine Nugget
+  - Adamantine Nugget
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe48:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §5Reaper Scythe
+  hidden: false
+  recipe:
+  - Void Mana
+  - Void Mana
+  - Void Mana
+  - Void Mana
+  - §5Scythe Handle1
+  - Void Mana
+  - Void Mana
+  - Void Mana
+  - Void Mana
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe49:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §cHellfire Axe
+  hidden: false
+  recipe:
+  - Fire Mana
+  - Fire Mana
+  - Fire Mana
+  - Fire Mana
+  - §cHellfire Handle
+  - Fire Mana
+  - Fire Mana
+  - Fire Mana
+  - Fire Mana
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe50:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §8Strontium Pickaxe
+  hidden: false
+  recipe:
+  - Corrupted Mana
+  - Corrupted Mana
+  - Corrupted Mana
+  - Corrupted Mana
+  - §8Strontium Handle
+  - Corrupted Mana
+  - Corrupted Mana
+  - Corrupted Mana
+  - Corrupted Mana
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe51:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: Bunny Ears
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - Energy
+  - §dBunny Ears
+  - null
+  - null
+  - Mithril Helmet
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: true
+recipe52:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: ENERGY
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - DIAMOND
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: false
+  shapeless: true

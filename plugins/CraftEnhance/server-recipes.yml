@@ -1,0 +1,26 @@
+disabled:
+- minecraft:netherite_scrap
+- minecraft:netherite_scrap_from_blasting
+- minecraft:netherite_ingot
+- minecraft:grindstone
+- minecraft:diamond_hoe
+- minecraft:diamond_boots
+- minecraft:diamond_helmet
+- minecraft:diamond_axe
+- minecraft:diamond_chestplate
+- minecraft:diamond_sword
+- minecraft:diamond_shovel
+- minecraft:diamond_leggings
+- minecraft:diamond_pickaxe
+- minecraft:netherite_helmet_smithing
+- minecraft:netherite_boots_smithing
+- minecraft:netherite_axe_smithing
+- minecraft:netherite_sword_smithing
+- minecraft:netherite_hoe_smithing
+- minecraft:netherite_chestplate_smithing
+- minecraft:netherite_pickaxe_smithing
+- minecraft:netherite_leggings_smithing
+- minecraft:netherite_shovel_smithing
+- minecraft:slime_ball
+- minecraft:repair_item
+- minecraft:blaze_powder

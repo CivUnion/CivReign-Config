@@ -1,0 +1,601 @@
+NETHER_WART_9:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: NETHER_WART
+  amount: 9
+NETHER_WART_BLOCK_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: NETHER_WART_BLOCK
+RED_MUSHROOM_4:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: RED_MUSHROOM
+  amount: 4
+RED_MUSHROOM_BLOCK_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: RED_MUSHROOM_BLOCK
+RED_MUSHROOM_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: RED_MUSHROOM
+BROWN_MUSHROOM_4:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: BROWN_MUSHROOM
+  amount: 4
+BROWN_MUSHROOM_BLOCK_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: BROWN_MUSHROOM_BLOCK
+BROWN_MUSHROOM_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: BROWN_MUSHROOM
+GRANITE_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: GRANITE
+POLISHED_GRANITE_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: POLISHED_GRANITE
+DIORITE_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIORITE
+POLISHED_DIORITE_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: POLISHED_DIORITE
+ANDESITE_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: ANDESITE
+POLISHED_ANDESITE_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: POLISHED_ANDESITE
+BASALT_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: BASALT
+POLISHED_BASALT_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: POLISHED_BASALT
+BRICK_4:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: BRICK
+  amount: 4
+BRICKS_BLOCK_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: BRICKS
+CLAY_BALL_4:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: CLAY_BALL
+  amount: 4
+CLAY_BLOCK_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: CLAY
+GLOWSTONE_DUST_4:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: GLOWSTONE_DUST
+  amount: 4
+GLOWSTONE_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: GLOWSTONE
+NETHER_BRICK_4:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: NETHER_BRICK
+  amount: 4
+NETHER_BRICKS_BLOCK_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: NETHER_BRICKS
+PRISMARINE_SHARD_4:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: PRISMARINE_SHARD
+  amount: 4
+PRISMARINE_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: PRISMARINE
+POPPED_CHORUS_FRUIT_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: POPPED_CHORUS_FRUIT
+PURPUR_BLOCK_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: PURPUR_BLOCK
+SNOWBALL_4:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: SNOWBALL
+  amount: 4
+SNOW_BLOCK_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: SNOW_BLOCK
+OAK_PLANKS_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: OAK_PLANKS
+STICK_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: STICK
+EXPERIENCE_BOTTLE_9:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: EXPERIENCE_BOTTLE
+  amount: 9
+EMERALD_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: EMERALD
+EXPERIENCE_BOTTLE_1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: EXPERIENCE_BOTTLE
+Adamantine Ingot:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: IRON_INGOT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Adamantine Ingot"}],"text":""}'
+    custom-model-data: 3
+Sapphire Gem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: LAPIS_LAZULI
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Sapphire Gem"}],"text":""}'
+    custom-model-data: 1
+Sapphire Nugget:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: LAPIS_LAZULI
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Sapphire Nugget"}],"text":""}'
+    custom-model-data: 4
+COAL:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: COAL
+Coal Nugget:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: COAL
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Coal Nugget"}],"text":""}'
+    custom-model-data: 9
+DIAMOND:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND
+Diamond Nugget:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: SCUTE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Diamond Nugget"}],"text":""}'
+    custom-model-data: 6
+Astral Gem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: SCUTE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Astral Gem"}],"text":""}'
+    custom-model-data: 3
+Astral Nugget:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: SCUTE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Astral Nugget"}],"text":""}'
+    custom-model-data: 7
+Magma Core:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: COAL
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Magma Core"}],"text":""}'
+    custom-model-data: 5
+Magma Nugget:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: COAL
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Magma Nugget"}],"text":""}'
+    custom-model-data: 10
+Infernum Rod:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: COAL
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Infernum Rod"}],"text":""}'
+    custom-model-data: 8
+Infernum Nugget:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: COAL
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Infernum Nugget"}],"text":""}'
+    custom-model-data: 11
+DIAMOND_PICKAXE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      ARROW_INFINITE: 1
+DIAMOND_AXE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      ARROW_INFINITE: 1
+DIAMOND_SHOVEL:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND_SHOVEL
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      ARROW_INFINITE: 1
+DIAMOND_HOE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND_HOE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      ARROW_INFINITE: 1
+DIAMOND_HOE1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND_HOE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      ARROW_INFINITE: 1
+DIAMOND_SWORD:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      ARROW_INFINITE: 1
+DIAMOND_SWORD1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      ARROW_INFINITE: 1
+DIAMOND_CHESTPLATE:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      ARROW_INFINITE: 1
+DIAMOND_LEGGINGS:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      ARROW_INFINITE: 1
+DIAMOND_BOOTS:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      ARROW_INFINITE: 1
+DIAMOND_HELMET:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      ARROW_INFINITE: 1
+DIAMOND_HELMET1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      ARROW_INFINITE: 1
+Adamantine Nugget:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: IRON_NUGGET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Adamantine Nugget"}],"text":""}'
+    custom-model-data: 3
+Void Mana:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: PAPER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Void Mana"}],"text":""}'
+    custom-model-data: 45
+§cHellfire Axe:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: NETHERITE_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"italic":false,"color":"red","text":"Hellfire Axe"}],"text":""}'
+    custom-model-data: 2
+    enchants:
+      DIG_SPEED: 5
+      FIRE_ASPECT: 2
+      DURABILITY: 5
+    repair-cost: 50
+    internal: H4sIAAAAAAAA/+NiYOBg4EnJLC7ISazU80vMTWUwr1bKLEnMyUxWslJIS8wpTtVRSs7PyS8CcpWKUlOUdJRKUitKQDyP1JyctMyiVAXHilSlWmYGvrzSnJyg1ILEzCLn/OISBgYGIwYAiSUUg2EAAAA=
+Fire Mana:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: PAPER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Fire Mana"}],"text":""}'
+    custom-model-data: 43
+§8Strontium Pickaxe:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: NETHERITE_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"italic":false,"color":"dark_gray","text":"Strontium
+      Pickaxe"}],"text":""}'
+    custom-model-data: 2
+    enchants:
+      DIG_SPEED: 5
+      DURABILITY: 5
+    repair-cost: 50
+    internal: H4sIAAAAAAAA/+NiYOBg4EnJLC7ISazU80vMTWVwqlbKLEnMyUxWslJIS8wpTtVRSs7PyS8CcpVSEouy49OLEiuVdJRKUitKQGLBJUX5eSWZpbkKAZnJ2YkVqUq1DAC5EotZVwAAAA==
+Corrupted Mana:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: PAPER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Corrupted Mana"}],"text":""}'
+    custom-model-data: 42
+§cHellfire Handle:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: ENCHANTED_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: ENCHANTED
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Hellfire
+      Handle"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Surround
+      me with fire"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"mana
+      in a crafting table!"}],"text":""}'
+    custom-model-data: 2
+§8Strontium Handle:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: ENCHANTED_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: ENCHANTED
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Strontium
+      Handle"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Surround
+      me with corrupted"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"mana
+      in a crafting table!"}],"text":""}'
+    custom-model-data: 3
+§5Reaper Scythe1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: NETHERITE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"italic":false,"color":"dark_purple","text":"Reaper
+      Scythe"}],"text":""}'
+    custom-model-data: 2
+    enchants:
+      DAMAGE_ARTHROPODS: 5
+      IMPALING: 5
+      DAMAGE_ALL: 5
+      DAMAGE_UNDEAD: 5
+      DURABILITY: 5
+    repair-cost: 50
+    internal: H4sIAAAAAAAA/+NiYOBg4EnJLC7ISazU80vMTWVwqFbKLEnMyUxWslJIS8wpTtVRSs7PyS8CcpVSEouy4wtKiwpyUpV0lEpSK0pAokGpiQWpRQrByZUlGalKtQwARejfd1UAAAA=
+§5Scythe Handle1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: ENCHANTED_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: ENCHANTED
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Scythe
+      Handle"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Surround
+      me with void"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"mana
+      in a crafting table!"}],"text":""}'
+    custom-model-data: 1
+Bunny Ears:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: WHITE_BANNER
+  meta:
+    ==: ItemMeta
+    meta-type: BANNER
+    display-name: '[{"text":"Bunny Ears","italic":false}]'
+    lore:
+    - '[{"text":"Hat"}]'
+    custom-model-data: 1
+    attribute-modifiers:
+      GENERIC_ARMOR:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 3.0
+        name: generic.armor
+        slot: HEAD
+        uuid: ffffd032-0000-4bf3-0000-06bfffff681a
+        operation: 0
+      GENERIC_KNOCKBACK_RESISTANCE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.1
+        name: generic.knockback_resistance
+        slot: HEAD
+        uuid: ffffd032-0000-4c57-0000-06bfffff6752
+        operation: 0
+      GENERIC_ARMOR_TOUGHNESS:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 3.0
+        name: generic.armor_toughness
+        slot: HEAD
+        uuid: ffffd032-0000-4cbb-0000-06bfffff668a
+        operation: 0
+Energy:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Energy"}],"text":""}'
+    lore:
+    - '{"extra":[{"text":"Concentrated Player Energy"}],"text":""}'
+§dBunny Ears:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: WHITE_BANNER
+  meta:
+    ==: ItemMeta
+    meta-type: BANNER
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Bunny
+      Ears"}],"text":""}'
+    lore:
+    - '{"extra":[{"text":"Hat"}],"text":""}'
+    custom-model-data: 1
+    internal: H4sIAAAAAAAA/+NiYOBg4PaNDPHwdI4PiQxwZeBKKs3Lq4xPTSwqZgAAZt+Bdh4AAAA=
+Mithril Helmet:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: NETHERITE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Mithril Helmet"}],"text":""}'
+    custom-model-data: 1
+§5Reaper Scythe:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: NETHERITE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"italic":false,"color":"dark_purple","text":"Reaper
+      Scythe"}],"text":""}'
+    custom-model-data: 2
+    enchants:
+      DAMAGE_ARTHROPODS: 5
+      IMPALING: 5
+      DAMAGE_ALL: 5
+      DAMAGE_UNDEAD: 5
+      DURABILITY: 5
+    attribute-modifiers:
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: -1.0
+        name: generic.attackSpeed
+        slot: HAND
+        uuid: 00000000-0000-0b38-0000-0000000da6be
+        operation: 0
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 8.0
+        name: generic.attackDamage
+        slot: HAND
+        uuid: 00000000-0000-0b38-0000-0000000da6be
+        operation: 0
+    repair-cost: 50
+    internal: H4sIAAAAAAAA/+NiYOBg4EnJLC7ISazU80vMTWVwqFbKLEnMyUxWslJIS8wpTtVRSs7PyS8CcpVSEouy4wtKiwpyUpV0lEpSK0pAokGpiQWpRQrByZUlGalKtQwARejfd1UAAAA=
+Energy:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"Energy"}],"text":""}'
+    lore: '{"extra":[{"text":"Use this to fuel pearls"}],"text":""}'

@@ -1,0 +1,156 @@
+version: 1
+general:
+  checkForUpdates: false
+  updateOnBlockDamage: true
+  bypassNotification: true
+  initialRadius: 1
+  updateRadius: 2
+  proximityHiderRunnerSize: 4
+cache:
+  enabled: true
+  baseDirectory: orebfuscator_cache
+  maximumOpenRegionFiles: 256
+  deleteRegionFilesAfterAccess: 172800000
+  maximumSize: 8192
+  expireAfterAccess: 30000
+  maximumTaskQueueSize: 32768
+  protocolLibThreads: -1
+world:
+- enabled: true
+  worlds:
+  - beta
+  hiddenBlocks:
+  - minecraft:chest
+  - minecraft:ender_chest
+  - minecraft:trapped_chest
+  - minecraft:barrel
+  - minecraft:jukebox
+  - minecraft:sponge
+  - minecraft:note_block
+  - minecraft:spawner
+  - minecraft:emerald_ore
+  - minecraft:diamond_ore
+  - minecraft:gold_ore
+  - minecraft:iron_ore
+  - minecraft:coal_ore
+  - minecraft:lapis_ore
+  - minecraft:redstone_ore
+  - minecraft:stone
+  - minecraft:terracotta
+  - minecraft:light_gray_terracotta
+  - minecraft:white_terracotta
+  - minecraft:orange_terracotta
+  - minecraft:red_terracotta
+  - minecraft:brown_terracotta
+  - minecraft:yellow_terracotta
+  randomBlocks:
+    minecraft:cave_air: 1
+    minecraft:clay: 1
+    minecraft:coal_ore: 1
+    minecraft:cobblestone: 1
+    minecraft:diamond_ore: 5
+    minecraft:emerald_ore: 5
+    minecraft:gold_ore: 5
+    minecraft:iron_ore: 5
+    minecraft:lapis_ore: 1
+    minecraft:mossy_cobblestone: 1
+    minecraft:obsidian: 1
+    minecraft:redstone_ore: 1
+    minecraft:stone: 1
+- enabled: true
+  worlds:
+  - world_the_end
+  hiddenBlocks:
+  - minecraft:chest
+  - minecraft:ender_chest
+  - minecraft:trapped_chest
+  - minecraft:jukebox
+  - minecraft:note_block
+  - minecraft:barrel
+  - minecraft:spawner
+  - minecraft:sponge
+  randomBlocks:
+    minecraft:end_stone: 1
+    minecraft:end_stone_bricks: 1
+    minecraft:bedrock: 1
+    minecraft:obsidian: 1
+    minecraft:purpur_block: 1
+proximity:
+- enabled: true
+  worlds:
+  - beta
+  distance: 16
+  useFastGazeCheck: false
+  defaults:
+    y: 0
+    above: true
+    useBlockBelow: false
+  hiddenBlocks:
+    minecraft:diamond_ore: {}
+    minecraft:emerald_ore: {}
+    minecraft:chest: {}
+    minecraft:ender_chest: {}
+    minecraft:trapped_chest: {}
+    minecraft:barrel: {}
+    minecraft:anvil: {}
+    minecraft:crafting_table: {}
+    minecraft:dispenser: {}
+    minecraft:enchanting_table: {}
+    minecraft:furnace: {}
+    minecraft:blast_furnace: {}
+    minecraft:cartography_table: {}
+    minecraft:fletching_table: {}
+    minecraft:grindstone: {}
+    minecraft:composter: {}
+    minecraft:lectern: {}
+    minecraft:loom: {}
+    minecraft:smithing_table: {}
+    minecraft:smoker: {}
+    minecraft:stonecutter: {}
+    minecraft:hopper: {}
+    minecraft:spawner: {}
+    minecraft:bee_nest: {}
+    minecraft:beehive: {}
+    minecraft:jukebox: {}
+    minecraft:note_block: {}
+    minecraft:sponge: {}
+  randomBlocks:
+    minecraft:stone: 1
+- enabled: true
+  worlds:
+  - world_the_end
+  distance: 16
+  useFastGazeCheck: false
+  defaults:
+    y: 0
+    above: true
+    useBlockBelow: true
+  hiddenBlocks:
+    minecraft:chest: {}
+    minecraft:ender_chest: {}
+    minecraft:trapped_chest: {}
+    minecraft:barrel: {}
+    minecraft:anvil: {}
+    minecraft:crafting_table: {}
+    minecraft:dispenser: {}
+    minecraft:enchanting_table: {}
+    minecraft:furnace: {}
+    minecraft:blast_furnace: {}
+    minecraft:cartography_table: {}
+    minecraft:fletching_table: {}
+    minecraft:grindstone: {}
+    minecraft:composter: {}
+    minecraft:lectern: {}
+    minecraft:loom: {}
+    minecraft:smithing_table: {}
+    minecraft:smoker: {}
+    minecraft:stonecutter: {}
+    minecraft:hopper: {}
+    minecraft:spawner: {}
+    minecraft:bee_nest: {}
+    minecraft:beehive: {}
+    minecraft:jukebox: {}
+    minecraft:note_block: {}
+    minecraft:sponge: {}
+  randomBlocks:
+    minecraft:end_stone: 1
