@@ -5,7 +5,7 @@ storage:
     dbname: '%DB.DATABASE%'
     port: '%DB.PORT%'
     username: '%DB.USER%'
-    password: '%DB.USER%'
+    password: '%DB.PASS%'
     connection_timeout: 5000
     idle_timeout: 5000
     max_lifetime: 5000

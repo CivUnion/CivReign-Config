@@ -275,7 +275,7 @@ database:
   plugin: Citadel
   user: '%DB.USER%'
   password: '%DB.PASS%'
-  host: '%DB.USER%'
+  host: '%DB.HOST%'
   port: '%DB.PORT%'
   database: '%DB.DATABASE%'
   poolsize: 5
