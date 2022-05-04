@@ -967,16 +967,54 @@ recipe51:
   page: -1
   matchmeta: true
   shapeless: true
+recipe53:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: Coal Lump
+  hidden: false
+  recipe:
+  - Coal Lump
+  - Coal Lump
+  - Coal Lump
+  - Coal Lump
+  - Coal Lump
+  - Coal Lump
+  - Coal Lump
+  - Coal Lump
+  - Coal Lump
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
 recipe52:
   ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
-  result: ENERGY
+  result: WHEAT
+  hidden: false
+  recipe:
+  - WHEAT1
+  - WHEAT1
+  - WHEAT1
+  - WHEAT1
+  - WHEAT1
+  - WHEAT1
+  - WHEAT1
+  - WHEAT1
+  - WHEAT1
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false
+recipe54:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: WHEAT2
   hidden: false
   recipe:
   - null
   - null
   - null
   - null
-  - DIAMOND
+  - WHEAT
   - null
   - null
   - null
@@ -984,5 +1022,43 @@ recipe52:
   permission: null
   slot: -1
   page: -1
-  matchmeta: false
+  matchmeta: true
   shapeless: true
+recipe55:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: WHEAT3
+  hidden: false
+  recipe:
+  - null
+  - null
+  - null
+  - null
+  - HAY_BLOCK
+  - null
+  - null
+  - null
+  - null
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: true
+recipe56:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: HAY_BLOCK
+  hidden: false
+  recipe:
+  - WHEAT4
+  - WHEAT4
+  - WHEAT4
+  - WHEAT4
+  - WHEAT4
+  - WHEAT4
+  - WHEAT4
+  - WHEAT4
+  - WHEAT4
+  permission: null
+  slot: -1
+  page: -1
+  matchmeta: true
+  shapeless: false

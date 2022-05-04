@@ -590,12 +590,53 @@ Mithril Helmet:
         operation: 0
     repair-cost: 50
     internal: H4sIAAAAAAAA/+NiYOBg4EnJLC7ISazU80vMTWVwqFbKLEnMyUxWslJIS8wpTtVRSs7PyS8CcpVSEouy4wtKiwpyUpV0lEpSK0pAokGpiQWpRQrByZUlGalKtQwARejfd1UAAAA=
-Energy:
+Coal Lump:
   ==: org.bukkit.inventory.ItemStack
   v: 2586
-  type: ENCHANTED_GOLDEN_APPLE
+  type: COAL
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"text":"Energy"}],"text":""}'
-    lore: '{"extra":[{"text":"Use this to fuel pearls"}],"text":""}'
+    display-name: '{"extra":[{"text":"Coal Lump"}],"text":""}'
+    custom-model-data: 1
+WHEAT:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: HAY_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '{"extra":[{"text":"Freshly harvested"}],"text":""}'
+WHEAT1:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: WHEAT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '{"extra":[{"text":"Freshly harvested"}],"text":""}'
+WHEAT2:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: WHEAT
+  amount: 9
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '{"extra":[{"text":"Freshly harvested"}],"text":""}'
+WHEAT3:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: WHEAT
+  amount: 9
+HAY_BLOCK:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: HAY_BLOCK
+WHEAT4:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: WHEAT

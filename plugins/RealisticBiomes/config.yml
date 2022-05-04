@@ -29,6 +29,7 @@ biome_aliases:
   - SWAMP_HILLS
   swampforest_lo:
   - BIRCH_FOREST_HILLS
+  - WOODED_HILLS
   desert_hi:
   - MUSHROOM_FIELDS
   - STONE_SHORE
@@ -56,7 +57,7 @@ biome_aliases:
   - TAIGA
   taiga_mid:
   - TAIGA_HILLS
-  - GIANT_TREE_TAIGA 
+  - GIANT_TREE_TAIGA
   - GIANT_SPRUCE_TAIGA
   taiga_lo:
   - GIANT_SPRUCE_TAIGA_HILLS
@@ -165,8 +166,8 @@ plants:
       desert_hi: 0.16
       desert_mid: 0.12
       tundra_hi: 0.16
-      tundra_mid: 0.12 
-      
+      tundra_mid: 0.12
+
   POTATO:
     persistent_growth_period: 12h
     name: Potatoes
@@ -211,7 +212,7 @@ plants:
       desert_lo: 0.14
       tundra_hi: 0.2
       tundra_lo: 0.14
-      
+
 
   BEETROOT:
     persistent_growth_period: 24h
@@ -254,7 +255,7 @@ plants:
       jungle_lo: 0.12
       swampforest_hi: 0.16
       swampforest_lo: 0.12
-      
+
   NETHER_WART:
     persistent_growth_period: 96h
     name: Nether wart
@@ -604,8 +605,8 @@ plants:
       taiga_hi: 0.66
       taiga_mid: 0.5
       taiga_lo: 0.43
-      
-      
+
+
   BIRCH_SAPLING:
     persistent_growth_period: 48h
     name: Birch Tree
@@ -767,7 +768,7 @@ plants:
       savannaplains_hi: 1.0
       savannaplains_mid: 0.66
       savannaplains_lo: 0.5
-
+      
 database:
   ==: vg.civcraft.mc.civmodcore.dao.ManagedDatasource
   plugin: RealisticBiomes

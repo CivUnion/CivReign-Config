@@ -9,7 +9,7 @@ database:
  database: '%DB.DATABASE%'
  user: '%DB.USER%'
  password: '%DB.PASS%'
- poolsize: 15
+ poolsize: 3
  connectionTimeout: 3000
  idleTimeout: 600000
  maxLifetime: 7200000

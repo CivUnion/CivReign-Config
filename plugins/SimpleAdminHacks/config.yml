@@ -77,7 +77,7 @@ hacks:
     # Default: 1.0 (100%)
     severStingerChance: 0.7
   BuffSpanker:
-    enabled: false
+    enabled: true
     # The list of PotionEffectType's that you do not wish players to receive.
     naughty:
       - DOLPHINS_GRACE
@@ -92,20 +92,20 @@ hacks:
     intervalTime: 15m
     # Use https://webui.adventure.kyori.net/ to help build interesting announcements
     announcements:
-      - "<gold>[civunion] <green>Join the Official Discord at <hover:show_text:'Click to open link'><click:open_url:'https://discord.gg/7ArMgp4p8q'>https://discord.gg/7ArMgp4p8q</click></hover>"
-      - "<gold>[civunion] <green><hover:show_text:'Click to open link'><click:open_url:'https://civwiki.org/wiki/Main_Page'>Visit our wiki at civwiki.org</click></hover>"
-      - "<gold>[civunion] <green>Type <hover:show_text:'Click to open command'><click:suggest_command:'/g !'>/g !</click></hover> to join global chat"
-      - "<gold>[civunion] <green>Gold blocks work as elevators, shift to go down and spacebar to go up"
-      - "<gold>[civunion] <green>For the best experience use 1.16.5 - other versions are allowed but not officially supported"
-      - "<gold>[civunion] <green>Do not put buttons or signs over an elevator - or it will be blocked and you will not be able to teleport back to that block!"
-      - "<gold>[civunion] <green>Consider donating to the server at <hover:show_text:'Click to open link'><click:open_url:'https://www.patreon.com/civregins'>https://www.patreon.com/civregins</click></hover>!"
-      - "<gold>[civunion] <green>Diamonds spawn in big veins - all other ores spawns randomly as you dig"
-      - "<gold>[civunion] <green>If you do not sleep, the phantoms will get you!"
-      - "<gold>[civunion] <green>Typing <hover:show_text:'Click to open command'><click:suggest_command:'/config'>/config</click></hover> will allow you adjust various settings"
-      - "<gold>[civunion] <green>Type <hover:show_text:'Click to open command'><click:suggest_command:'/rb'>/rb</click></hover> to see the crop information for the biome you are in"
-      - "<gold>[civunion] <green>Type <hover:show_text:'Click to open command'><click:suggest_command:'/chunklimits'>/chunklimits</click></hover> to see the restrictions on how many blocks can be placed in a chunk"
-      - "<gold>[civunion] <green>If you type <hover:show_text:'Click to open command'><click:suggest_command:'/fm'>/fm</click></hover> you can see all the types of factories you can make"
-      - "<gold>[civunion] <green>You may not give another player access to any of your accounts. If you share an account with a friend, you and that friend will be considered the same person."
+      - "<gold>[CivUnion] <green>Join the Official Discord at <hover:show_text:'Click to open link'><click:open_url:'https://discord.gg/7ArMgp4p8q'>https://discord.gg/7ArMgp4p8q</click></hover>"
+      - "<gold>[CivUnion] <green><hover:show_text:'Click to open link'><click:open_url:'https://civwiki.org/wiki/Main_Page'>Visit our wiki at civwiki.org</click></hover>"
+      - "<gold>[CivUnion] <green>Type <hover:show_text:'Click to open command'><click:suggest_command:'/g !'>/g !</click></hover> to join global chat"
+      - "<gold>[CivUnion] <green>Gold blocks work as elevators, shift to go down and spacebar to go up"
+      - "<gold>[CivUnion] <green>For the best experience use 1.16.5 - other versions are allowed but not officially supported"
+      - "<gold>[CivUnion] <green>Do not put buttons or signs over an elevator - or it will be blocked and you will not be able to teleport back to that block!"
+      - "<gold>[CivUnion] <green>Consider donating to the server at <hover:show_text:'Click to open link'><click:open_url:'https://www.patreon.com/civregins'>https://www.patreon.com/civregins</click></hover>!"
+      - "<gold>[CivUnion] <green>Diamonds spawn in big veins - all other ores spawns randomly as you dig"
+      - "<gold>[CivUnion] <green>If you do not sleep, the phantoms will get you!"
+      - "<gold>[CivUnion] <green>Typing <hover:show_text:'Click to open command'><click:suggest_command:'/config'>/config</click></hover> will allow you adjust various settings"
+      - "<gold>[CivUnion] <green>Type <hover:show_text:'Click to open command'><click:suggest_command:'/rb'>/rb</click></hover> to see the crop information for the biome you are in"
+      - "<gold>[CivUnion] <green>Type <hover:show_text:'Click to open command'><click:suggest_command:'/chunklimits'>/chunklimits</click></hover> to see the restrictions on how many blocks can be placed in a chunk"
+      - "<gold>[CivUnion] <green>If you type <hover:show_text:'Click to open command'><click:suggest_command:'/fm'>/fm</click></hover> you can see all the types of factories you can make"
+      - "<gold>[CivUnion] <green>You may not give another player access to any of your accounts. If you share an account with a friend, you and that friend will be considered the same person."
   ElytraFeatures:
     enabled: true
     # Whether Elytra flight should be outright disabled
@@ -147,11 +147,11 @@ hacks:
     disableMiningFatigue: true
     canEquipBanners: true
     disableLavaCobbleMountains: true
-    disableWanderingTrader: false
+    disableWanderingTrader: true
     preventPearlGlitching: true
     preventUsingEyeOfEnder: true
-    disablePiglins: false
-    disableGapples: false
+    disablePiglins: true
+    disableGapples: true
     disableEndGatewayTP: false
   ItemMetaConverterHack:
     enabled: false
@@ -204,7 +204,7 @@ hacks:
     # Disallows players from creating enchanted books
     disableEnchantedBookCreation: true
     # Disallows players from using enchanted books
-    disableEnchantedBookUsage: false
+    disableEnchantedBookUsage: true
     # Modifies the exp drops for specific mob types, which will be used in lieu of experienceModifier
     # NOTE: Players have an implicit modifier of 1.0
     # NOTE: Modifiers must be 0 or greater
@@ -242,7 +242,7 @@ hacks:
   # aswell as default health to between 20 (Default) and 50 (2.5 heart bars)
   # Only works on newly spawned striders, not pre-existing mobs
   StriderBreeding:
-    enabled: false
+    enabled: true
     #Default strider speed is 0.175
     minSpeed: 0.175
     #Max horse speed is 0.3375
@@ -269,7 +269,7 @@ hacks:
   ## Simple Hacks
   ############################################################
   BadBoyWatch:
-    enabled: false
+    enabled: true
     trackingDepth: 16
     clearOnMatch: true
     minDepthToMatch: 2
@@ -301,14 +301,14 @@ hacks:
     VILLAGER: ALL
   Experimental:
     enabled: true
-    combatspy: false
-    teleportspy: false
+    combatspy: true
+    teleportspy: true
     postteleport:
-      spy: false
+      spy: true
       count: 10
   GameFeatures:
     enabled: true
-    disablePotatoXP: false
+    disablePotatoXP: true
     villagerTrading: false
     witherSpawning: false
     patrolSpawning: false
@@ -323,8 +323,8 @@ hacks:
       environment: 5000
       playerKill: 5000
     blockWaterInHell: true
-    minecartTeleport: true
-    obsidianGenerators: true
+    minecartTeleport: false
+    obsidianGenerators: false
     personalDeathMessages: false
     disableNetheriteCrafting: false
   GameFixes:
@@ -400,6 +400,7 @@ hacks:
     #a list of materials players shouldn't be allowed to place at all
     noplace:
      #- GRINDSTONE Leaving here so future dev's know the config format for this
+     - GRINDSTONE
      - SHULKER_BOX
      - WHITE_SHULKER_BOX
      - ORANGE_SHULKER_BOX

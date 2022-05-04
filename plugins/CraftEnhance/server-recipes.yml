@@ -24,3 +24,5 @@ disabled:
 - minecraft:slime_ball
 - minecraft:repair_item
 - minecraft:blaze_powder
+- minecraft:jukebox
+- minecraft:note_block
