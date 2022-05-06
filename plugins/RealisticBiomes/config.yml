@@ -2,9 +2,39 @@
 allow_tallplant_replication: true
 
 no_bonemeal_blocks:
-- SEA_PICKLE
-- KELP
-- KELP_PLANT
+  - SEA_PICKLE
+  - KELP
+  - TWISTING_VINES
+  - WEEPING_VINES
+  - CAVE_VINES
+  - BAMBOO
+  - KELP_PLANT
+  - TWISTING_VINES_PLANT
+  - WEEPING_VINES_PLANT
+  - CAVE_VINES_PLANT
+  - BAMBOO_SAPLING
+  - SWEET_BERRY_BUSH
+  - BIG_DRIPLEAF
+  - BIG_DRIPLEAF_STEM
+  - RED_MUSHROOM
+  - BROWN_MUSHROOM
+  - WHEAT
+  - CARROTS
+  - POTATOES
+  - BEETROOTS
+  - NETHER_WART
+  - COCOA
+  - MELON_STEM
+  - PUMPKIN_STEM
+  - CACTUS
+  - SUGAR_CANE
+  - OAK_SAPLING
+  - BIRCH_SAPLING
+  - SPRUCE_SAPLING
+  - JUNGLE_SAPLING
+  - DARK_OAK_SAPLING
+  - ACACIA_SAPLING
+  - FLOWERING_AZALEA
 
  # categories of biomes
 biome_aliases:
@@ -770,7 +800,7 @@ plants:
       savannaplains_lo: 0.5
       
 database:
-  ==: vg.civcraft.mc.civmodcore.dao.ManagedDatasource
+  ==: vg.civcraft.mc.civmodcore.dao.DatabaseCredentials
   plugin: RealisticBiomes
   user: '%DB.USER%'
   password: '%DB.PASS%'

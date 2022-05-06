@@ -6,7 +6,14 @@ snitchConfigs:
       amount: 1
     id: 0
     name: Snitch
-    range: 11
+    range:
+      #Accepted values here: cube/cuboid
+      type: cube
+      range: 11
+      #Example config if you wanted cuboid
+      #type: cuboid
+      #width: 10
+      #height: 20
     appender:
       broadcast:
         trigger:
@@ -24,7 +31,14 @@ snitchConfigs:
       amount: 1
     id: 1
     name: Logsnitch
-    range: 11
+    range:
+      #Accepted values here: cube/cuboid
+      type: cube
+      range: 11
+      #Example config if you wanted cuboid
+      #type: cuboid
+      #width: 10
+      #height: 20
     appender:
       broadcast:
         trigger:
@@ -54,7 +68,7 @@ snitchConfigs:
 
 
 database:
-  ==: vg.civcraft.mc.civmodcore.dao.ManagedDatasource
+  ==: vg.civcraft.mc.civmodcore.dao.DatabaseCredentials
   plugin: JukeAlert
   user: '%DB.USER%'
   password: '%DB.PASS%'
