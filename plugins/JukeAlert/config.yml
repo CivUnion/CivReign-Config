@@ -54,7 +54,7 @@ snitchConfigs:
 
 
 database:
-  ==: vg.civcraft.mc.civmodcore.dao.ManagedDatasource
+  ==: vg.civcraft.mc.civmodcore.dao.DatabaseCredentials
   plugin: JukeAlert
   user: '%DB.USER%'
   password: '%DB.PASS%'

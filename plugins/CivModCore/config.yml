@@ -1,5 +1,5 @@
 database:
-  ==: vg.civcraft.mc.civmodcore.dao.ManagedDatasource
+  ==: vg.civcraft.mc.civmodcore.dao.DatabaseCredentials
   plugin: CivModCore  
   user: '%DB.USER%'
   password: '%DB.PASS%'

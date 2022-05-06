@@ -271,7 +271,7 @@ hangers_inherit_reinforcement: true
 # reinforcement_damageMultiplier is m where BlockDamage = 2 ^ (n/m) where n is equal to the number of days the group has been inactive
 reinforcement_damageMultiplier: 365
 database:
-  ==: vg.civcraft.mc.civmodcore.dao.ManagedDatasource
+  ==: vg.civcraft.mc.civmodcore.dao.DatabaseCredentials
   plugin: Citadel
   user: '%DB.USER%'
   password: '%DB.PASS%'

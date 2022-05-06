@@ -770,7 +770,7 @@ plants:
       savannaplains_lo: 0.5
       
 database:
-  ==: vg.civcraft.mc.civmodcore.dao.ManagedDatasource
+  ==: vg.civcraft.mc.civmodcore.dao.DatabaseCredentials
   plugin: RealisticBiomes
   user: '%DB.USER%'
   password: '%DB.PASS%'
