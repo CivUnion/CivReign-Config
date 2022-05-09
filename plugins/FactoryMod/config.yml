@@ -7263,7 +7263,7 @@ recipes:
         amount: 48
   crush_refine_red_sand:
     production_time: 4s
-    name: Crush Andesite
+    name: Grind and Refine Red Sand
     type: PRODUCTION
     input:
       redsand:
