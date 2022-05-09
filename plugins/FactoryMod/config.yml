@@ -440,6 +440,7 @@ factories:
       - crude_refine_iron
       - crude_refine_magma_core
       - crude_refine_sapphire
+      - repair_crude_refinery
       - upgrade_intermediate_refinery
   crude_xp:
     type: FCC
@@ -674,6 +675,7 @@ factories:
       - crush_dirt
       - crush_granite
       - crush_gravel
+      - crush_refine_red_sand
       - crush_stone
       - repair_ironsmith
   hatchery:
@@ -831,12 +833,17 @@ factories:
         material: STONE
         amount: 512
     recipes:
+      - convert_coal_magma
+      - convert_infernum_magma
+      - convert_magma_coal
+      - convert_magma_infernum
       - repair_kiln
       - smelt_bricks_to_nether_bricks
       - smelt_clay_to_bricks
       - smelt_clay_to_terracotta
       - smelt_cobble_to_stone
       - smelt_red_sand_to_red_sandstone
+      - smelt_sand_to_cobble
       - smelt_sand_to_glass
       - smelt_sand_to_sandstone
       - smelt_stone_to_smooth_stone
@@ -3726,7 +3733,7 @@ recipes:
           CustomModelData: 7
       fuel:
         material: COAL
-        amount: 7
+        amount: 3
         name: Infernum Rod
         nbt:
           CustomModelData: 8
@@ -3750,7 +3757,7 @@ recipes:
           CustomModelData: 4
       fuel:
         material: COAL
-        amount: 7
+        amount: 3
         name: Magma Core
         nbt:
           CustomModelData: 5
@@ -3792,7 +3799,7 @@ recipes:
           CustomModelData: 6
       fuel:
         material: COAL
-        amount: 26
+        amount: 13
         name: Infernum Rod
         nbt:
           CustomModelData: 8
@@ -3816,7 +3823,7 @@ recipes:
           CustomModelData: 3
       fuel:
         material: COAL
-        amount: 26
+        amount: 13
         name: Magma Core
         nbt:
           CustomModelData: 5
@@ -3855,7 +3862,7 @@ recipes:
           CustomModelData: 1
       fuel:
         material: COAL
-        amount: 13
+        amount: 7
         name: Infernum Rod
         nbt:
           CustomModelData: 8
@@ -3877,7 +3884,7 @@ recipes:
         name: Magma Ore
       fuel:
         material: COAL
-        amount: 13
+        amount: 6
         name: Magma Core
         nbt:
           CustomModelData: 5
@@ -4817,6 +4824,49 @@ recipes:
         name: Sapphire Gem
         nbt:
           CustomModelData: 1
+  repair_crude_refinery:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      sapphire:
+        material: LAPIS_LAZULI
+        amount: 64
+        name: Sapphire Gem
+        nbt:
+          CustomModelData: 1
+      steel:
+        material: GOLD_INGOT
+        amount: 64
+        name: Steel Ingot
+        nbt:
+          CustomModelData: 1
+      gold:
+        material: GOLD_INGOT
+        amount: 128
+      adamantine:
+        material: IRON_INGOT
+        amount: 32
+        name: Adamantine Ingot
+        nbt:
+          CustomModelData: 3
+      magmacore:
+        material: COAL
+        amount: 64
+        nbt:
+          CustomModelData: 5
+        name: Magma Core
+      diamond:
+        material: DIAMOND
+        amount: 128
+      essence:
+        material: PAPER
+        amount: 16
+        name: Greater Essence
+        nbt:
+          CustomModelData: 2
+          MYTHIC_TYPE: greater_essence
+    health_gained: 10000
   upgrade_intermediate_refinery:
     fuel_consumption_intervall: 9999s
     name: Upgrade to Intermediate Refinery
@@ -5661,7 +5711,7 @@ recipes:
           CustomModelData: 7
       fuel:
         material: COAL
-        amount: 3
+        amount: 1
         name: Infernum Rod
         nbt:
           CustomModelData: 8
@@ -5685,7 +5735,7 @@ recipes:
           CustomModelData: 4
       fuel:
         material: COAL
-        amount: 3
+        amount: 1
         name: Magma Core
         nbt:
           CustomModelData: 5
@@ -5728,7 +5778,7 @@ recipes:
           CustomModelData: 6
       fuel:
         material: COAL
-        amount: 13
+        amount: 6
         name: Infernum Rod
         nbt:
           CustomModelData: 8
@@ -5752,7 +5802,7 @@ recipes:
           CustomModelData: 3
       fuel:
         material: COAL
-        amount: 13
+        amount: 6
         name: Magma Core
         nbt:
           CustomModelData: 5
@@ -5791,7 +5841,7 @@ recipes:
           CustomModelData: 1
       fuel:
         material: COAL
-        amount: 6
+        amount: 3
         name: Infernum Rod
         nbt:
           CustomModelData: 8
@@ -5813,7 +5863,7 @@ recipes:
         name: Magma Ore
       fuel:
         material: COAL
-        amount: 6
+        amount: 3
         name: Magma Core
         nbt:
           CustomModelData: 5
@@ -7211,6 +7261,24 @@ recipes:
       sand:
         material: SAND
         amount: 48
+  crush_refine_red_sand:
+    production_time: 4s
+    name: Crush Andesite
+    type: PRODUCTION
+    input:
+      redsand:
+        material: RED_SAND
+        amount: 64
+    output:
+      reddye:
+        material: RED_DYE
+        amount: 4
+      yellowdye:
+        material: YELLOW_DYE
+        amount: 4
+      sand:
+        material: SAND
+        amount: 48
   crush_stone:
     production_time: 4s
     name: Crush Stone
@@ -7607,7 +7675,7 @@ recipes:
           CustomModelData: 7
       fuel:
         material: COAL
-        amount: 3
+        amount: 1
         name: Infernum Rod
         nbt:
           CustomModelData: 8
@@ -7631,7 +7699,7 @@ recipes:
           CustomModelData: 4
       fuel:
         material: COAL
-        amount: 3
+        amount: 1
         name: Magma Core
         nbt:
           CustomModelData: 5
@@ -7673,7 +7741,7 @@ recipes:
           CustomModelData: 6
       fuel:
         material: COAL
-        amount: 13
+        amount: 6
         name: Infernum Rod
         nbt:
           CustomModelData: 8
@@ -7697,7 +7765,7 @@ recipes:
           CustomModelData: 3
       fuel:
         material: COAL
-        amount: 13
+        amount: 6
         name: Magma Core
         nbt:
           CustomModelData: 5
@@ -7736,7 +7804,7 @@ recipes:
           CustomModelData: 1
       fuel:
         material: COAL
-        amount: 7
+        amount: 3
         name: Infernum Rod
         nbt:
           CustomModelData: 8
@@ -7758,7 +7826,7 @@ recipes:
         name: Magma Ore
       fuel:
         material: COAL
-        amount: 7
+        amount: 3
         name: Magma Core
         nbt:
           CustomModelData: 5
@@ -9314,6 +9382,72 @@ recipes:
       shears:
         material: SHEARS
         amount: 64
+  convert_coal_magma:
+    production_time: 32s
+    name: Convert Coal to Magma Cores
+    type: PRODUCTION
+    input:
+      coal:
+        material: COAL
+        amount: 64
+    output:
+      fuel:
+        material: COAL
+        amount: 32
+        name: Magma Core
+        nbt:
+          CustomModelData: 5
+  convert_infernum_magma:
+    production_time: 32s
+    name: Convert Infernum Rods to Magma Cores
+    type: PRODUCTION
+    input:
+      infernum:
+        material: COAL
+        amount: 64
+        name: Infernum Rod
+        nbt:
+          CustomModelData: 8
+    output:
+      fuel:
+        material: COAL
+        amount: 32
+        name: Magma Core
+        nbt:
+          CustomModelData: 5
+  convert_magma_coal:
+    production_time: 32s
+    name: Convert Magma Core to Coal
+    type: PRODUCTION
+    input:
+      fuel:
+        material: COAL
+        amount: 64
+        name: Magma Core
+        nbt:
+          CustomModelData: 5
+    output:
+      fuel:
+        material: COAL
+        amount: 32
+  convert_magma_infernum:
+    production_time: 32s
+    name: Convert Magma Cores to Infernum Rods
+    type: PRODUCTION
+    input:
+      fuel:
+        material: COAL
+        amount: 64
+        name: Magma Core
+        nbt:
+          CustomModelData: 5
+    output:
+      infernum:
+        material: COAL
+        amount: 32
+        name: Infernum Rod
+        nbt:
+          CustomModelData: 8
   repair_kiln:
     production_time: 4s
     name: Repair Factory
@@ -9383,6 +9517,24 @@ recipes:
       red_sandstone:
         material: RED_SANDSTONE
         amount: 64
+  smelt_sand_to_cobble:
+    production_time: 16s
+    name: Smelt Sand to Cobblestone
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 48
+      water_bucket:
+        material: WATER_BUCKET
+        amount: 1
+    output:
+      bucket:
+        material: BUCKET
+        amount: 1
+      cobble:
+        material: COBBLESTONE
+        amount: 256
   smelt_sand_to_glass:
     production_time: 4s
     name: Smelt Sand to Glass
@@ -9943,7 +10095,9 @@ recipes:
       steel:
         material: GOLD_INGOT
         name: Steel Ingot
-        amount: 60
+        amount: 20
+        nbt:
+          CustomModelData: 1
       energy:
         material: GOLDEN_APPLE
         name: Energy
@@ -12875,6 +13029,8 @@ recipes:
         material: GOLD_INGOT
         name: Steel Ingot
         amount: 20
+        nbt:
+          CustomModelData: 1
       energy:
         material: GOLDEN_APPLE
         name: Energy
